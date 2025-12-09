@@ -1,12 +1,49 @@
-# React + Vite
+# Travel Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight React + Vite travel journal that lists destinations from a local data file using reusable Header and Entry components.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Component-based React app built with Vite
+- Data-driven entries using `data.js`
+- Reusable `Header` and `Entry` components
+- Minimal CSS for clean layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Getting Started
 
-## Expanding the ESLint configuration
+1. Install dependencies
+```
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Start development server
+```
+npm run dev
+```
+
+3. Build for production
+```
+npm run build
+```
+
+4. Preview production build
+```
+npm run preview
+```
+
+## Project structure
+- index.html — app HTML entry
+- src/main.jsx / index.jsx — React entry
+- App.jsx — main app component
+- component/Header.jsx — header component
+- component/Entry.jsx — entry component
+- data.js — sample travel entries
+- ap.css, src/App.css — styles
+- package.json, vite.config.js — project config
+
+## How to use
+- Edit `data.js` to add or modify travel entries.
+- Components map data entries to UI; modify components in `component/` to change layout.
+
+## 📌 Notes
+
+This project is part of my React learning journey and demonstrates basic component structure, props, and data mapping.
