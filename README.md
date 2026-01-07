@@ -2,13 +2,13 @@
 
 A lightweight React + Vite travel journal that lists destinations from a local data file using reusable Header and Entry components.
 
-## 🚀 Features
+##  Features
 - Component-based React app built with Vite
 - Data-driven entries using `data.js`
 - Reusable `Header` and `Entry` components
 - Minimal CSS for clean layout
 
-## 🧩 Getting Started
+##  Getting Started
 
 1. Install dependencies
 ```
